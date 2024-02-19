@@ -15,12 +15,12 @@ spring:
     password : lucas20606
 
 
-jpa:
-  hibernate:
-    ddl-auto: update
-  properties:
+  jpa:
     hibernate:
-      format_sql: true
-      show_sql: true
-      highlight_sql: true
-  defer-datasource-initialization: true
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        highlight_sql: true
+    defer-datasource-initialization: true
