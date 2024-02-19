@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAZI2LB4TZT5R6SO6E
+      secret-key: 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
+    region:
+      static: ap-northeast-2
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://awseb-e-cbzs4vpk7w-stack-awsebrdsdatabase-mx1dvctvswoo.czqcqoci6me8.eu-north-1.rds.amazonaws.com:3306/ebdb
+    username: zixkix
+    password : lucas20606
+
+
+jpa:
+  hibernate:
+    ddl-auto: update
+  properties:
+    hibernate:
+      format_sql: true
+      show_sql: true
+      highlight_sql: true
+  defer-datasource-initialization: true
